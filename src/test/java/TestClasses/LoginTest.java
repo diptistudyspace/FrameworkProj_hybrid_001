@@ -34,7 +34,7 @@ public class LoginTest extends Base {
 		AccountPage accountPage = new AccountPage(driver);
 		Assert.assertTrue(accountPage.MyAccount().isDisplayed());
 		
-		 System.out.println("git pull origin main, you can delete this line");
+		 
 	}
 
 	@AfterMethod
